@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lebel Maritime Systems — Control de Puertos y Flota Naviera</title>
-<meta name="description" content="Desarrollo de sistemas de control portuario y gestión de flota naviera: turnos, demoras, laytime, KPIs y reportes. Chile – Perú. Solicita tu cotización.">
+<meta name="description" content="Desarrollo de sistemas de control portuario y gestión de flota naviera: turnos, demoras, laytime, KPIs y reportes en cualquier puerto del mundo. Solicita tu cotización.">
 <link rel="icon" type="image/svg+xml" href="logo.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -124,7 +124,33 @@
 <header>
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="Lebel Maritime Systems">
-      <img src="logo.svg" alt="" width="38" height="38" style="display:block">
+      <svg width="38" height="38" style="display:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Logo Lebel Maritime Systems">
+  <!-- Roundel náutico -->
+  <circle cx="60" cy="60" r="58" fill="#0E2A3A"/>
+  <circle cx="60" cy="60" r="51" fill="none" stroke="#D9531E" stroke-width="1.8"/>
+  <!-- Estrella de rumbo (norte) -->
+  <path d="M60 12 l2.6 6.2 -2.6 -1.6 -2.6 1.6 Z" fill="#EDF3F5"/>
+  <!-- Monograma L: mástil vertical -->
+  <rect x="40" y="30" width="13" height="46" rx="2" fill="#EDF3F5"/>
+  <!-- Pie de la L convertido en ola -->
+  <path d="M40 76
+           q 11 -9 22 0
+           q 11 9 22 0
+           l 0 12
+           q -11 9 -22 0
+           q -11 -9 -22 0
+           Z" fill="#EDF3F5"/>
+  <!-- Segunda ola, acento -->
+  <path d="M40 93
+           q 11 -8 22 0
+           q 11 8 22 0
+           l 0 7
+           q -11 8 -22 0
+           q -11 -8 -22 0
+           Z" fill="#D9531E"/>
+  <!-- Sol / boya -->
+  <circle cx="79" cy="40" r="7" fill="#D9531E"/>
+</svg>
       <b>LEBEL</b><span>MARITIME&nbsp;SYSTEMS</span>
     </a>
     <nav aria-label="Principal">
@@ -143,57 +169,80 @@
   <!-- ============ HERO ============ -->
   <div class="wrap hero">
     <div>
-      <p class="kicker">Desarrollo de proyectos · Chile — Perú</p>
+      <p class="kicker">Desarrollo de proyectos · Puertos de todo el mundo</p>
       <h1>Control de puertos y flota naviera, <em>convertido en datos</em>.</h1>
       <p class="lead">Diseñamos y operamos sistemas a la medida para agencias, armadores y port captains: bitácoras de turnos, control de estiba, demoras, hitos ETA·ETB·ETD, laytime y KPIs — con evidencia fotográfica y acceso en línea para sus clientes.</p>
       <a class="btn" href="#cotizar">Solicitar cotización</a>
       <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
-      <p class="hero-meta">MATARANI · ARICA · MEJILLONES · COQUIMBO · CALLAO</p>
+      <p class="hero-meta">AMÉRICA · EUROPA · ASIA — DONDE SU NAVE RECALE</p>
     </div>
 
-    <!-- Carta náutica: elemento distintivo -->
+    <!-- Globo con rosa de los vientos: elemento distintivo -->
     <div class="chart" aria-hidden="true">
-      <svg viewBox="0 0 520 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Carta náutica estilizada de la costa del Pacífico Sur con puertos y ruta de nave">
-        <rect width="520" height="400" fill="#F4FAFC"/>
-        <!-- contornos de profundidad -->
-        <g fill="none" stroke="#BFD3DA" stroke-width="1">
-          <path d="M-20,60 C120,90 180,40 320,70 S480,50 540,80"/>
-          <path d="M-20,120 C120,150 190,100 330,130 S480,110 540,140"/>
-          <path d="M-20,180 C120,210 200,160 340,190 S480,170 540,200"/>
-          <path d="M-20,240 C120,270 210,220 350,250 S480,230 540,260"/>
-          <path d="M-20,300 C120,330 220,280 360,310 S480,290 540,320"/>
-        </g>
-        <!-- costa -->
-        <path d="M380,-10 C360,60 400,120 385,180 C370,240 410,300 395,410 L540,410 L540,-10 Z" fill="#DCE9EE" stroke="#8FB0BE" stroke-width="1.5"/>
-        <!-- cuadrícula -->
-        <g stroke="#D5E4E9" stroke-width="0.7">
-          <line x1="0" y1="100" x2="520" y2="100"/><line x1="0" y1="200" x2="520" y2="200"/><line x1="0" y1="300" x2="520" y2="300"/>
-          <line x1="130" y1="0" x2="130" y2="400"/><line x1="260" y1="0" x2="260" y2="400"/>
-        </g>
-        <!-- ruta -->
-        <path d="M90,330 C150,300 220,250 300,215 C350,193 380,150 398,95" fill="none" stroke="#D9531E" stroke-width="2" stroke-dasharray="6 5"/>
-        <!-- puertos -->
-        <g font-family="IBM Plex Mono, monospace" font-size="11" fill="#0E2A3A">
-          <circle cx="398" cy="95" r="5" fill="#D9531E"/><text x="340" y="90">CALLAO</text>
-          <circle cx="392" cy="170" r="5" fill="#0E2A3A"/><text x="316" y="166">MATARANI</text>
-          <circle cx="401" cy="235" r="5" fill="#0E2A3A"/><text x="345" y="231">ARICA</text>
-          <circle cx="390" cy="315" r="5" fill="#0E2A3A"/><text x="290" y="311">MEJILLONES</text>
-        </g>
-        <!-- nave -->
-        <g transform="translate(90,330)">
-          <circle r="7" fill="#0E2A3A"/><circle r="12" fill="none" stroke="#D9531E" stroke-width="1.5"/>
-          <text x="-14" y="28" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5A7484">M/V</text>
-        </g>
-        <!-- rosa de los vientos -->
-        <g transform="translate(60,70)" stroke="#5A7484" fill="none">
-          <circle r="18" stroke-width="1"/><line x1="0" y1="-24" x2="0" y2="24"/><line x1="-24" y1="0" x2="24" y2="0"/>
-          <text x="-4" y="-28" font-family="IBM Plex Mono, monospace" font-size="10" fill="#0E2A3A" stroke="none">N</text>
-        </g>
-        <!-- datos -->
-        <g font-family="IBM Plex Mono, monospace" font-size="10" fill="#5A7484">
-          <text x="20" y="378">ETA 06:00 · NOR TENDERED · LAYTIME COMMENCED</text>
-        </g>
-      </svg>
+<svg viewBox="0 0 520 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Globo terráqueo con rosa de los vientos">
+<defs>
+  <radialGradient id="sphere" cx="38%" cy="32%" r="75%">
+    <stop offset="0%" stop-color="#3A6B87"/>
+    <stop offset="55%" stop-color="#1B4258"/>
+    <stop offset="100%" stop-color="#0B2331"/>
+  </radialGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="70%" stop-color="#0E2A3A" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#0E2A3A" stop-opacity=".25"/>
+  </radialGradient>
+  <linearGradient id="roseDisk" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#D7E3E9"/>
+  </linearGradient>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#0E2A3A" flood-opacity="0.35"/>
+  </filter>
+</defs>
+<rect width="520" height="420" fill="#F4FAFC"/>
+<circle cx="215" cy="195" r="148" fill="url(#sphere)" filter="url(#soft)"/>
+<g fill="none" stroke="#7FA6BA" stroke-width="1" opacity="0.55">
+<ellipse cx="215" cy="97.3" rx="111.2" ry="24.5" stroke-width="1"/>
+<ellipse cx="215" cy="146.2" rx="139.7" ry="30.7" stroke-width="1"/>
+<ellipse cx="215" cy="195.0" rx="148.0" ry="32.6" stroke-width="1.4"/>
+<ellipse cx="215" cy="243.8" rx="139.7" ry="30.7" stroke-width="1"/>
+<ellipse cx="215" cy="292.7" rx="111.2" ry="24.5" stroke-width="1"/>
+<ellipse cx="215" cy="195" rx="51.8" ry="148"/>
+<ellipse cx="215" cy="195" rx="103.6" ry="148"/>
+<line x1="215" y1="47" x2="215" y2="343"/>
+</g>
+<g fill="none" stroke="#D9531E" stroke-width="1.8" stroke-dasharray="5 5" opacity="0.9">
+<path d="M120,155 Q127,206 185,250"/>
+<path d="M185,250 Q240,257 275,215"/>
+<path d="M275,215 Q330,168 335,133"/>
+<path d="M120,155 Q159,105 225,100"/>
+<path d="M225,100 Q297,96 335,133"/>
+<path d="M87,235 Q114,256 185,250"/>
+</g>
+<g fill="#EDF3F5">
+<circle cx="120" cy="155" r="4"/>
+<circle cx="185" cy="250" r="4"/>
+<circle cx="275" cy="215" r="4"/>
+<circle cx="335" cy="133" r="4"/>
+<circle cx="225" cy="100" r="4"/>
+<circle cx="87" cy="235" r="4"/>
+</g>
+<circle cx="215" cy="195" r="148" fill="url(#glow)"/>
+<circle cx="215" cy="195" r="148" fill="none" stroke="#0E2A3A" stroke-width="1.5"/>
+<g filter="url(#soft)">
+<circle cx="400" cy="300" r="92" fill="url(#roseDisk)" stroke="#0E2A3A" stroke-width="2"/>
+<circle cx="400" cy="300" r="83" fill="none" stroke="#8FA9B6" stroke-width="0.8"/>
+<g stroke="#5A7484" stroke-width="1"><line x1="400.0" y1="217.0" x2="400.0" y2="209.0"/><line x1="421.5" y1="219.8" x2="423.0" y2="214.0"/><line x1="441.5" y1="228.1" x2="444.5" y2="222.9"/><line x1="458.7" y1="241.3" x2="464.3" y2="235.7"/><line x1="471.9" y1="258.5" x2="477.1" y2="255.5"/><line x1="480.2" y1="278.5" x2="486.0" y2="277.0"/><line x1="483.0" y1="300.0" x2="491.0" y2="300.0"/><line x1="480.2" y1="321.5" x2="486.0" y2="323.0"/><line x1="471.9" y1="341.5" x2="477.1" y2="344.5"/><line x1="458.7" y1="358.7" x2="464.3" y2="364.3"/><line x1="441.5" y1="371.9" x2="444.5" y2="377.1"/><line x1="421.5" y1="380.2" x2="423.0" y2="386.0"/><line x1="400.0" y1="383.0" x2="400.0" y2="391.0"/><line x1="378.5" y1="380.2" x2="377.0" y2="386.0"/><line x1="358.5" y1="371.9" x2="355.5" y2="377.1"/><line x1="341.3" y1="358.7" x2="335.7" y2="364.3"/><line x1="328.1" y1="341.5" x2="322.9" y2="344.5"/><line x1="319.8" y1="321.5" x2="314.0" y2="323.0"/><line x1="317.0" y1="300.0" x2="309.0" y2="300.0"/><line x1="319.8" y1="278.5" x2="314.0" y2="277.0"/><line x1="328.1" y1="258.5" x2="322.9" y2="255.5"/><line x1="341.3" y1="241.3" x2="335.7" y2="235.7"/><line x1="358.5" y1="228.1" x2="355.5" y2="222.9"/><line x1="378.5" y1="219.8" x2="377.0" y2="214.0"/></g>
+<path d="M437.7,262.3 L406.0,306.0 L400,300 Z" fill="#C4D4DC"/><path d="M437.7,262.3 L394.0,294.0 L400,300 Z" fill="#8FA9B6"/><path d="M437.7,337.7 L394.0,306.0 L400,300 Z" fill="#C4D4DC"/><path d="M437.7,337.7 L406.0,294.0 L400,300 Z" fill="#8FA9B6"/><path d="M362.3,337.7 L394.0,294.0 L400,300 Z" fill="#C4D4DC"/><path d="M362.3,337.7 L406.0,306.0 L400,300 Z" fill="#8FA9B6"/><path d="M362.3,262.3 L406.0,294.0 L400,300 Z" fill="#C4D4DC"/><path d="M362.3,262.3 L394.0,306.0 L400,300 Z" fill="#8FA9B6"/>
+<path d="M400.0,219.0 L410.5,300.0 L400,300 Z" fill="#F2643A"/><path d="M400.0,219.0 L389.5,300.0 L400,300 Z" fill="#A03D14"/><path d="M481.0,300.0 L400.0,310.5 L400,300 Z" fill="#EDF3F5"/><path d="M481.0,300.0 L400.0,289.5 L400,300 Z" fill="#9DB4C0"/><path d="M400.0,381.0 L389.5,300.0 L400,300 Z" fill="#EDF3F5"/><path d="M400.0,381.0 L410.5,300.0 L400,300 Z" fill="#9DB4C0"/><path d="M319.0,300.0 L400.0,289.5 L400,300 Z" fill="#EDF3F5"/><path d="M319.0,300.0 L400.0,310.5 L400,300 Z" fill="#9DB4C0"/>
+<circle cx="400" cy="300" r="7" fill="#0E2A3A"/>
+<circle cx="400" cy="300" r="3" fill="#D9531E"/>
+<text x="400" y="199" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="800" font-size="16" fill="#0E2A3A">N</text>
+<text x="506" y="305" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="800" font-size="16" fill="#0E2A3A">E</text>
+<text x="400" y="411" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="800" font-size="16" fill="#0E2A3A">S</text>
+<text x="294" y="305" text-anchor="middle" font-family="Archivo, sans-serif" font-weight="800" font-size="16" fill="#0E2A3A">W</text>
+</g>
+<text x="20" y="408" font-family="IBM Plex Mono, monospace" font-size="10" fill="#5A7484">PROYECTOS DE CONTROL PORTUARIO Y FLOTA · EN CUALQUIER PUERTO DEL MUNDO</text>
+</svg>
     </div>
   </div>
 
@@ -225,7 +274,7 @@
       <div class="proj-grid">
         <div class="proj-card">
           <h3>Sistema de gestión de flota naviera</h3>
-          <p>Plataforma integral para un operador con flota de tres naves en la ruta Pacífico Sur — Europa.</p>
+          <p>Plataforma integral para un operador con flota de tres naves en rutas América — Europa.</p>
           <ul>
             <li>Bitácora de turnos, cuadrillas y detenciones por bodega</li>
             <li>KPIs bruto / neto sobre ventana primer gancho → último gancho</li>
@@ -235,7 +284,7 @@
         </div>
         <div class="proj-card">
           <h3>Sistema de control portuario para port captains</h3>
-          <p>Plataforma de respaldo digital para servicios de supervisión y port captain en terminales del Pacífico Sur.</p>
+          <p>Plataforma de respaldo digital para servicios de supervisión y port captain en cualquier terminal del mundo.</p>
           <ul>
             <li>Registro por turnos con fotos y personas que intervienen</li>
             <li>Checklist de verificación de estiba por bodega</li>
@@ -275,7 +324,7 @@
           <p>Cuéntenos qué necesita controlar — puerto, flota, laytime o todo lo anterior — y le responderemos con una propuesta a la medida.</p>
         </div>
         <p class="contact-line"><b>Correo:</b> <span id="mail-text">sigilebel@hotmail.com</span></p>
-        <p class="contact-line"><b>Cobertura:</b> Chile — Perú</p>
+        <p class="contact-line"><b>Cobertura:</b> Puertos de todo el mundo</p>
         <p class="contact-line"><b>Responsable:</b> Sigfredo Lebel</p>
       </div>
       <div>
@@ -309,7 +358,7 @@
 <footer>
   <div class="wrap">
     <div><b>LEBEL</b> Maritime Systems — Desarrollo de proyectos de control de puertos y flota naviera</div>
-    <div>Sigfredo Lebel · <a href="mailto:sigilebel@hotmail.com">sigilebel@hotmail.com</a> · Chile — Perú</div>
+    <div>Sigfredo Lebel · <a href="mailto:sigilebel@hotmail.com">sigilebel@hotmail.com</a> · Operación global</div>
   </div>
 </footer>
 
