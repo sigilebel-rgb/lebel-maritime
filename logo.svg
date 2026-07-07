@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Logo Lebel Maritime Systems">
+  <!-- Roundel náutico -->
+  <circle cx="60" cy="60" r="58" fill="#0E2A3A"/>
+  <circle cx="60" cy="60" r="51" fill="none" stroke="#D9531E" stroke-width="1.8"/>
+  <!-- Estrella de rumbo (norte) -->
+  <path d="M60 12 l2.6 6.2 -2.6 -1.6 -2.6 1.6 Z" fill="#EDF3F5"/>
+  <!-- Monograma L: mástil vertical -->
+  <rect x="40" y="30" width="13" height="46" rx="2" fill="#EDF3F5"/>
+  <!-- Pie de la L convertido en ola -->
+  <path d="M40 76
+           q 11 -9 22 0
+           q 11 9 22 0
+           l 0 12
+           q -11 9 -22 0
+           q -11 -9 -22 0
+           Z" fill="#EDF3F5"/>
+  <!-- Segunda ola, acento -->
+  <path d="M40 93
+           q 11 -8 22 0
+           q 11 8 22 0
+           l 0 7
+           q -11 8 -22 0
+           q -11 -8 -22 0
+           Z" fill="#D9531E"/>
+  <!-- Sol / boya -->
+  <circle cx="79" cy="40" r="7" fill="#D9531E"/>
+</svg>
